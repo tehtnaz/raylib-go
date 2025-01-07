@@ -62,7 +62,7 @@
 **********************************************************************************************/
 
 #include "raylib.h"             // Declares module functions
-
+#define SUPPORT_FILEFORMAT_SVG
 // Check if config flags have been externally provided on compilation line
 #if !defined(EXTERNAL_CONFIG_FLAGS)
     #include "config.h"         // Defines module configuration flags
